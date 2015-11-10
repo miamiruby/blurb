@@ -14,10 +14,5 @@ RSpec.describe "Array" do
     it "should know if its been monkey patched?" do
       expect(a.monkey_patched?).to be true
     end
-
-    it "should know if its funky" do
-      expect(a.monkey_patched?).to be true
-    end
-
   end
 end
