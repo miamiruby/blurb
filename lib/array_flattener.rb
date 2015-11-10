@@ -1,5 +1,6 @@
 class Array
     def flatten
-      return []
+      self.flatten!
+      return self
     end
 end
