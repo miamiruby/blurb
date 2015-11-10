@@ -7,4 +7,6 @@ group :development, :test do
   gem 'rspec'
   gem 'byebug'
   gem 'pry'
+  gem 'guard'
+  gem 'guard-rspec', require: false
 end
