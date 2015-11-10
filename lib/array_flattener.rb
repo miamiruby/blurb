@@ -14,7 +14,7 @@ class Array
       n
     end
 
-    def monkeypatch?
+    def monkey_patched?
     	return true
     end
 end
