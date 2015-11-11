@@ -1,7 +1,7 @@
 class Array
-	def flatten
-		return self.flatten_recursively(self)
-	end
+    def flatten
+        return self.flatten_recursively(self)
+    end
 
     def flatten_recursively(set_of_numbers, n=[])
         set_of_numbers.each do |a|
@@ -15,6 +15,6 @@ class Array
     end
 
     def monkey_patched?
-    	return true
+        return true
     end
 end
